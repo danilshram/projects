@@ -1,0 +1,209 @@
+html {
+    --primaryColor: #302C42;
+    --secondaryColor: #8176AF;
+    --thirdColor: #C0B7E8; 
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primaryColor);
+}
+.contact-btn {
+    width: 154px;
+    height: 48px;
+    border: 2px solid white;
+    background-color: var(--primaryColor);
+    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.submit-btn {
+    width: 155px;
+    height: 48px;
+    background: linear-gradient(90deg, var(--secondaryColor) 0%, var(--thirdColor) 100%);
+    border-radius: 40px;
+    color: #343045;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.round-shadow {
+    background: rgba(13, 13, 13, 0.32);
+    border-radius: 50%;
+}
+.round {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: linear-gradient(251.27deg, var(--thirdColor) 12.87%, var(--secondaryColor) 89.33%);
+    margin: auto;
+}
+.round-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #343045;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 35px;
+}
+.registration-form {
+    position: relative;
+    width: 1275px;
+    height: 1008px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    border-radius: 100px;
+}
+.registration-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding: 90px;
+    color: white;
+}
+.line {
+    width: 414px;
+    height: 2px;
+    border: 1px;
+    background: linear-gradient(#343045 0%, #C0B7E8 34.09%, #8176AF 68.75%, #343045 100%);
+}
+.registration-text {
+    margin-top: -40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.registration-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.name-inputs {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.name-inputs > input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 40%;
+    padding: 25px;
+}
+.contact-inputs {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.contact-inputs > input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 40%;
+    padding: 25px;
+    margin-top: 30px;
+}
+.subject-input {
+    background: transparent;
+    width: 90%;
+}
+.subject-input > input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 25px;
+    margin: 30px;
+    width: 100%;
+}
+.textarea-info {
+    background: transparent;
+    width: 90%;
+}
+.textarea-info > textarea {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 100%;
+    padding: 25px;
+    margin: 25px;
+}
+.registration-form > .submit-btn {
+    position: absolute;
+    left: 50%;
+}
+.content-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.introduction-content {
+    display: flex;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 25%;
+    box-sizing: content-box;
+}
+.introduction-content img {
+    margin: 30px auto;
+    border-radius: 50%;
+}
+.introduction-content h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+}
+.introduction-content .line {
+    border: 1px solid rgba(192, 183, 232, 0.33);
+    width: 154px;
+    align-self: center;
+}
+.introduction-content p {
+    margin: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+}
+.introduction-content .submit-btn {
+    margin: 30px;
+    color: white;
+}
+.titles {
+    display: flex;
+    
+}
+.titles h1 {
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+}
+.titles p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+

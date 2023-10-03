@@ -1,0 +1,66 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>GQL</title>
+        <meta charset='utf8' />
+        <style>
+            #mainContainer {
+                display: flex;
+            }
+            #aside {
+                width: 30%;
+            }
+            #aside > a{
+                display: block;
+            }
+            header {
+                min-height: 100px;
+                background-color: #AAA;
+                display: flex;
+                align-items: end;
+                flex-direction: column;
+            }
+            header > div {
+                margin:10px;
+            }
+            #cartIcon a img{
+                max-width: 50px;
+            }
+            #main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #main img{
+                max-width: 200px;
+            }
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center
+            }
+            a img {
+                max-width: 100px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id='cartIcon'></div>
+            <div id="history"></div>
+            <div id="username"></div>
+            <div id="register"></div>
+        </header>
+        <div id='mainContainer'>
+            <aside id='aside'>
+                Категории
+                Сюда надо воткнуть список корневых категорий интернет-магазина
+            </aside>
+            <main id='main'>
+            </main>
+        </div>
+        <script src='modul.js'></script>
+    </body>
+</html>
